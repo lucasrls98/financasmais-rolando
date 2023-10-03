@@ -1,27 +1,29 @@
-.header{    
-    display:flex;
+.header {
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.5rem;    
+    padding: 1.5rem;
 }
 
-.lista{
+.lista {
     display: flex;
-    gap: 12px;
+    gap: 24px;
+
 }
 
 
-.links{
+.links {
     color: #457b9d;
     font-family: Montserrat;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-        
+    text-decoration: none;
+
 }
 
-.logo{
+.logo {
     color: #457B9D;
     font-family: Montserrat;
     font-size: 32px;
@@ -30,4 +32,17 @@
     line-height: normal;
 }
 
-
+.botao {
+    width: 215px;
+    height: 52px;
+    border-radius: 8px;
+    background: #1D3557;
+    box-shadow: 5px 6px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 12px 48px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

@@ -11,7 +11,7 @@ const Header = () => {
                     <li><a className={S.links} href="">Home</a></li>
                     <li><a className={S.links} href="">Quem Somos</a></li>
                     <li><a className={S.links} href="">Entrar</a></li>
-                    <li><a className={S.links} href="">Criar Conta</a></li>
+                    <li><a className={`${S.links} ${S.botao}`}  href="">Criar Conta</a></li>
                 </ul>
             </nav>
         </header>
