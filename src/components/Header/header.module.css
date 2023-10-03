@@ -1,0 +1,33 @@
+.header{    
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;    
+}
+
+.lista{
+    display: flex;
+    gap: 12px;
+}
+
+
+.links{
+    color: #457b9d;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+        
+}
+
+.logo{
+    color: #457B9D;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
