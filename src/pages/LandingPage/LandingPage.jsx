@@ -1,7 +1,6 @@
 //rafce
 import React from 'react'
 import styles from "./landingPage.module.css"
-import "./globalStyle.css"
 import Header from "../../components/Header/Header"
 import banner1 from "/LP-banner1.svg"
 import banner2 from "/LP-banner2.svg"
