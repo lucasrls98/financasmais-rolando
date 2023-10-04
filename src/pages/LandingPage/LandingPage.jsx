@@ -6,6 +6,7 @@ import Header from "../../components/Header/Header"
 import banner1 from "/LP-banner1.svg"
 import banner2 from "/LP-banner2.svg"
 import BannerBemVindo from '../../components/BannerBemVindo/BannerBemVindo'
+import Button from '../../components/Button/Button'
 
 
 
@@ -16,6 +17,7 @@ const LandingPage = () => {
     return (
         <div className={styles.container}>
             <Header/>
+            <Button/>
             
             <BannerBemVindo/>
         </div>

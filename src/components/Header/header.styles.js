@@ -1,4 +1,7 @@
-.header {
+import styled from "styled-components"
+
+export const StylesHeader = styled.header`
+    .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,3 +49,4 @@
     font-weight: 700;
     line-height: normal;
 }
+`
