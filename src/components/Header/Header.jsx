@@ -4,8 +4,8 @@ import {StylesHeader} from './header.styles'
 const Header = () => {
     return (
         <StylesHeader className={"header"}>
+            <nav className={"navegacao"}>
                 <h1 className={"logo"} >Finanças +</h1>
-            <nav>
                 <ul className={"lista"}>
 
                     <li><a className={"links"} href="">Home</a></li>

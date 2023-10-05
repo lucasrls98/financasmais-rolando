@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const StylesBannerBemVindo = styled.section`
-.sessao {
+
+.sessao {    
     display: flex;
     align-items: center;
     padding: 24px;

@@ -1,12 +1,12 @@
 import React from 'react'
 import banner1 from "/LP-banner1.svg"
-import s from "./bannerBemVindo.module.css"
 import {StylesBannerBemVindo} from './bannerBemVindo.styles'
 
 const BannerBemVindo = () => {
     return (
 
-        <StylesBannerBemVindo className={"sessao"}>
+        <StylesBannerBemVindo>
+            <section className={"sessao"}>
             <div className={"firstBlock"}>
                 <h2 className={"titulo"}>Bem-vindo ao Finanças+</h2>
                 <p className={"texto1"}>O seu aliado para uma gestão financeira bem-sucedida e a realização dos seus objetivos financeiros.</p>
@@ -17,6 +17,8 @@ const BannerBemVindo = () => {
                 <img src={banner1} alt="" />
 
             </div>
+
+            </section>
 
         </StylesBannerBemVindo>
 

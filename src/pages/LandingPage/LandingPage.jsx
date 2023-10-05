@@ -16,8 +16,7 @@ const LandingPage = () => {
     return (
         <div className={styles.container}>
             <Header/>
-            <Button/>
-            
+            <Button/>            
             <BannerBemVindo/>
         </div>
     )

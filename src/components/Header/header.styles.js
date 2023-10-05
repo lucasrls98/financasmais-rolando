@@ -1,16 +1,24 @@
 import styled from "styled-components"
 
 export const StylesHeader = styled.header`
-    .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1.5rem;
-}
+
+
+
 
 .lista {
     display: flex;
+    justify-content: space-between;
     gap: 24px;
+
+}
+
+.navegacao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+
+    
 
 }
 
@@ -23,7 +31,7 @@ export const StylesHeader = styled.header`
     font-weight: 400;
     line-height: normal;
     text-decoration: none;
-
+    
 }
 
 .logo {
@@ -33,6 +41,7 @@ export const StylesHeader = styled.header`
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    
 }
 
 .botao {
